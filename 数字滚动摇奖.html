@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+    <link href="css/main.css" rel="stylesheet" type="text/css" />
+	<script src="js/jquery-1.7.2-min.js" language="javascript" type="text/javascript"></script>  
+	<script src="js/jquery.easing-1.3.min.js" language="javascript" type="text/javascript"></script>
+	<script src="js/jquery.yaojiang.js" language="javascript" type="text/javascript"></script>
+	<style type="text/css">
+	  
+	</style>
+<title>
+	数字滚动摇奖-特效
+</title></head>
+<body  class="bg_f5f5f5"> 
+    
+
+
+     <div class="wrap">
+        
+          <div class="yel_box1">
+          	欢迎您参与本次摇奖，您还有 <span class="colf60">10</span> 次摇奖机会
+          </div>
+          <ul class="yhlc">
+          	<li>点击开始摇奖</li>
+            <li>摇奖中</li>
+            <li>自动公示中奖结果</li>
+          </ul>
+          <div class="yh_box">
+          	<div class="yh_num">
+          		<span class="num"></span>
+                <span class="num"></span>
+                <span class="num"></span>
+                <span class="num"></span>
+                <span class="num"></span>
+                <span class="num"></span>
+                <span class="num"></span>
+            </div>
+            <div class="tac">
+            	<p class="yellow">请点击“开始摇奖” </p>
+                <p class="colfff">此请点击“开始摇奖”后，立即开启摇奖</p>
+            </div>
+          </div>
+          <div class="tac mb50"><span  class="btn2">开始摇奖</span> </div>
+     </div>
+     <script  type="text/javascript">
+         var isBegin = false,isClick=false,cc =48;
+         isClick = cc>0?true:false;
+         if(!isClick){$(".btn2").css("background", "#c0c0c0");}
+     </script>
+   
+
+</body>
+</html>
